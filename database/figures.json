@@ -1,9 +1,9 @@
-{
- "id":"",
- "name": "",
- "price":"",
- "expansion": "",
- "universe": "",
- "figureNumber":"",
- "friends":""
-}
+[{
+ "id":"01",
+ "name": "Batman",
+ "price":"99.00",
+ "expansion": "Justice League",
+ "universe": "DC",
+ "figureNumber":"#001",
+ "friends":"Batman"
+}]

@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+.body {margin: auto;}
+
+.header { display: flex;
+          flex-direction: row;
+          width:100vw;
+          height: 15vh;
+        background-color: rgb(24, 237, 237);
+        margin: 0px;
+    padding: 10px;}
+    .titleHeader { font-size: 55px;
+    margin: auto;}
+
+
+
+        .contenedorSearchmenu{ width: 30%;
+        display: flex;
+    flex-direction: column;
+margin: auto 2px 2px auto;}
+
+.search-bar { width: 80%;
+border-radius: 55px;
+height: 35px;}
+.subtitle { margin-left: 25%;}
+
+
+.menuDesktop {width: 100%; 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 10px;
+margin-bottom: 2px;}
+.logoHeader { width: 55%;}
+.searchBar { width: 100%;}
+
+
+
+@media (min-width: 768px) { 
+
+    .menuDesktop { display: flex;
+                 flex-direction: row;}
+
+
+
+
+}
