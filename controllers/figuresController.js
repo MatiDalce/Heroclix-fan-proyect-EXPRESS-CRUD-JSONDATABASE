@@ -35,6 +35,13 @@ module.exports = {
 
   createFigurePOST: function (req, res) { 
 
+    const newFigure = req.body;
+    newFigure.id = Heroclix[Heroclix.length -1 ].id + 1;
+    newFigure.image = req.file.originalname;
+
+    Heroclix.push(newFigure)
+
+
   },
 
   deleteFigure : function (req, res) {

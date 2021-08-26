@@ -6,9 +6,13 @@ module.exports =
 
 router.get("/", figuresController.figuresList);
 
-router.get("/createGet", figuresController.createGet) ;
+router.get("/create", figuresController.createGet) ;
+
+router.post("/create", figuresController.createFigurePOST) ;
 
 router.get("/:friends", figuresController.figuresByFriends);
+
+
 
 
 
