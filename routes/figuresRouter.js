@@ -5,7 +5,11 @@ const figuresController = require("../controllers/figuresController")
 module.exports =
 
 router.get("/", figuresController.figuresList);
-router.get("/:friends", figuresController.figuresByFriends)
+
+router.get("/createGet", figuresController.createGet) ;
+
+router.get("/:friends", figuresController.figuresByFriends);
+
 
 
 module.exports = router

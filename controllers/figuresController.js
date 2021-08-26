@@ -29,11 +29,11 @@ module.exports = {
 
   },
 
-  uploadFigure : function (req,res) { 
+  createGet : function (req,res) { res.render("/createFigure")
 
   },
 
-  uploadFigurePost: function (req, res) { 
+  createFigurePOST: function (req, res) { 
 
   },
 
