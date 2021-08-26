@@ -6,4 +6,13 @@
  "universe": "DC",
  "figureNumber":"#001",
  "friends":"Batman"
-}]
+},
+{
+    "id":"02",
+    "name": "Superman",
+    "price":"99.00",
+    "expansion": "Justice League",
+    "universe": "DC",
+    "figureNumber":"#001",
+    "friends":"Superman"
+   }]
