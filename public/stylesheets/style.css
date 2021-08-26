@@ -9,6 +9,7 @@ body { margin: auto;}
 margin: 0px;
 display: flex;
 flex-direction: row;
+justify-content: space-around;
 padding: 0px;
 background-color: rgb(250, 189, 76);    }
 
@@ -25,10 +26,27 @@ background-color: rgb(250, 189, 76);    }
 
  .search-bar-signs { display: flex;
 flex-direction: column;
+height: 100%;
 width: 45%;}
 
  .imagenLogo { width: 10.5%;
                  margin: auto 2px;}
+
+                 .formSearchBar {display: flex;
+                 justify-content: center;
+                margin: auto auto 1px auto ;
+                padding: 6px;
+            width: 80%; 
+        height: 50%;}
+
+                 .searchBar { border-radius: 5px;
+                    width: 60%;
+                    height: 80%;
+                             border-color: lawngreen;}
+
+                             .searchBar:hover { style:none}
+
+                             .menues { height: 50%;}
 
              
                
