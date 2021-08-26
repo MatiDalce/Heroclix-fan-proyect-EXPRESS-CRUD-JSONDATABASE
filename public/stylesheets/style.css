@@ -1,53 +1,34 @@
-*{box-sizing: border-box;}
-.body {margin: auto;}
+* {box-sizing: border-box;}
 
-.header { display: flex;
-          flex-direction: row;
-          width:100vw;
-          height: 15vh;
-        background-color: rgb(24, 237, 237);
-        margin: 0px;
-    padding: 10px;}
-    .titleHeader { font-size: 55px;
-    margin: auto;}
+
+body { margin: auto;}
 
 
 
-        .contenedorSearchmenu{ width: 30%;
-        display: flex;
-    flex-direction: column;
-margin: auto 2px 2px auto;}
-
-.search-bar { width: 80%;
-border-radius: 55px;
-height: 35px;}
-.subtitle { margin-left: 25%;}
-
-
-.menuDesktop {width: 100%; 
+#mainBar { width: 100%;
+margin: 0px;
 display: flex;
 flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-padding: 10px;
-margin-bottom: 2px;}
+padding: 0px;
+background-color: rgb(250, 189, 76);    }
 
-.imagenLogo { width: auto;}
+.contenedorLogos { display: flex;
+ flex-direction: row;
 
+ flex-wrap: wrap;
+  justify-content: space-between;
+ position: sticky;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-right: 0px;
+ width: 50%;}
 
-.logoHeader { width: 55%;
-display: flex;
-flex-direction: row;
-box-sizing: border-box;
-justify-content: center;
-}
+ .search-bar-signs { display: flex;
+flex-direction: column;
+width: 45%;}
 
-.contenedorLogos { 
-    box-sizing: content-box;
-width: 100%;
-display: flex;
-width: 100%;
-}
+ .imagenLogo { width: 10.5%;
+                 margin: auto 2px;}
 
-.searchBar { width: 100%;}
-
+             
+               
